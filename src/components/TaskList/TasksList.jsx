@@ -1,12 +1,11 @@
 import TaskItem from "../TaskItem/TaskItem";
 import "./TasksList.css";
-const TasksList = () => {
+const TasksList = ({ tasks, deleteTask }) => {
   return (
     <ul className="tasks-list">
-      <TaskItem />
-      <TaskItem />
-      <TaskItem />
-      <TaskItem />
+      {tasks.map((task, index) => (
+        <TaskItem key={task.id} task={task} deleteTask={deleteTask} />
+      ))}
     </ul>
   );
 };

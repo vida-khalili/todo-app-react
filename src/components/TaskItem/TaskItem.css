@@ -21,6 +21,7 @@
   padding: 10px;
 }
 .task-item button {
+  cursor: pointer;
   font-size: 20px;
   color: #34495e;
   background-color: transparent;

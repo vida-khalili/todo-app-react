@@ -1,8 +1,8 @@
 import "./FilterOptions.css";
-const FilterOptions = () => {
+const FilterOptions = ({ tasks }) => {
   return (
     <div className="filter-options">
-      <div className="item-counter">98 items</div>
+      <div className="item-counter">{tasks.length} items</div>
       <ul className="filter-buttons">
         <li>
           <button className="active">All</button>
