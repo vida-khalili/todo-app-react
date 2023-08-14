@@ -1,0 +1,33 @@
+.task-item {
+  height: 80px;
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  align-items: center;
+  padding: 16px 8px;
+  border-bottom: 1px solid #34495e51;
+}
+
+.task-item input {
+  margin: 0;
+}
+
+.task-item input[type="checkbox"] {
+  accent-color: #16a085;
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  transform: scale(1.5);
+  padding: 10px;
+}
+.task-item button {
+  font-size: 20px;
+  color: #34495e;
+  background-color: transparent;
+  border: none;
+  transition-duration: 300ms;
+}
+
+.task-item button:hover {
+  color: #c0392b;
+}

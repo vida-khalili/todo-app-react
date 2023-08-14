@@ -1,0 +1,36 @@
+.filter-options {
+  color: #34495e;
+  font-weight: 600;
+
+  padding: 16px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter-options .filter-buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-options .filter-buttons button {
+  font-weight: 600;
+  color: #34495e;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: transparent;
+  border: 2px solid #34495e;
+  transition: all 200ms ease-in-out;
+}
+
+.filter-options .filter-buttons button:hover {
+  color: white;
+  background-color: #34495e;
+}
+
+.filter-options .filter-buttons button.active {
+  color: white;
+  background-color: #34495e;
+}

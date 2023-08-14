@@ -1,0 +1,13 @@
+.footer {
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #34495e;
+}
+.footer a:hover {
+  border-bottom: 1px solid #34495e;
+  font-weight: 600;
+}
