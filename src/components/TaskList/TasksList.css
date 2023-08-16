@@ -1,5 +1,7 @@
 .tasks-list {
+  overflow: auto;
+  height: 306px;
+  margin-left: 8px;
   padding: 0 8px;
-  /* background-color: white; */
-  /* border-radius: 16px; */
+  width: 328px;
 }

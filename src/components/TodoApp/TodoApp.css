@@ -1,5 +1,15 @@
 .todo-app {
+  top: 120px;
+  position: relative;
+  z-index: 1;
   padding: 32px;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 500px;
+}
+
+.todo-grid {
+  padding: 16px 0;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr 0.5fr;
 }

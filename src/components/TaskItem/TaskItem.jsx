@@ -10,7 +10,7 @@ const TaskItem = ({ task, deleteTask, handleChangeStatus }) => {
           handleChangeStatus(task.id);
         }}
       />
-      <h2>{task.title}</h2>
+      <p>{task.title}</p>
       <button
         onClick={() => {
           deleteTask(task.id);

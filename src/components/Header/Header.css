@@ -1,4 +1,9 @@
 .header {
+  margin: 0 auto;
+  width: 300px;
+  top: 140px;
+  position: relative;
+  z-index: 5;
   height: 80px;
   color: #34495e;
   display: flex;

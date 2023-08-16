@@ -144,10 +144,33 @@ table {
 
 h1 {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 h2 {
   font-size: 22px;
   font-weight: 500;
+}
+#root {
+  height: 100%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #222f3e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

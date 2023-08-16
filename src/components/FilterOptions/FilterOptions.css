@@ -1,20 +1,21 @@
 .filter-options {
+  height: 160px;
   color: #34495e;
   font-weight: 600;
-
-  padding: 16px 8px;
-  display: flex;
+  display: grid;
+  gap: 16px;
   align-items: center;
   justify-content: space-between;
 }
 
 .filter-options .filter-buttons {
-  display: flex;
+  display: grid;
   align-items: center;
   gap: 8px;
 }
 
 .filter-options .filter-buttons button {
+  width: 90px;
   font-weight: 600;
   color: #34495e;
   cursor: pointer;

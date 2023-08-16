@@ -21,13 +21,14 @@ const AddTaskForm = ({ addTask }) => {
 
   return (
     <form className="add-task-form" onSubmit={handleTaskSubmit}>
-      <input
+      <textarea
         ref={inputElement}
         type="text"
         autoComplete="off"
         placeholder="Type your task..."
         onChange={handleTaskTitleChange}
-      />
+        rows={4}
+      ></textarea>
       <button type="submit">Add</button>
     </form>
   );

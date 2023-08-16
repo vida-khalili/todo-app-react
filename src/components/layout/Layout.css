@@ -1,0 +1,11 @@
+.layout {
+  height: 100%;
+  position: relative;
+}
+
+.layout img {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+  height: 100%;
+}

@@ -62,12 +62,14 @@ const TodoApp = () => {
   return (
     <div className="todo-app">
       <AddTaskForm addTask={addTask} />
-      <TasksList
-        tasks={filteredTasks}
-        deleteTask={deleteTask}
-        handleChangeStatus={handleChangeStatus}
-      />
-      <FilterOptions handleFilterTask={setFilter} tasks={filteredTasks} />
+      <div className="todo-grid">
+        <TasksList
+          tasks={filteredTasks}
+          deleteTask={deleteTask}
+          handleChangeStatus={handleChangeStatus}
+        />
+        <FilterOptions handleFilterTask={setFilter} tasks={filteredTasks} />
+      </div>
     </div>
   );
 };
