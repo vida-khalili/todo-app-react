@@ -5,3 +5,12 @@
   padding: 0 8px;
   width: 328px;
 }
+
+@media screen and (max-width: 500px) {
+  .tasks-list {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 200px;
+    width: 300px;
+  }
+}

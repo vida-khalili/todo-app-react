@@ -42,3 +42,19 @@
   font-size: 16px;
   word-break: break-all;
 }
+
+@media screen and (max-width: 500px) {
+  .task-item {
+    margin: 0 0 8px 60px;
+    width: 220px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    align-items: center;
+    padding: 2px 4px;
+  }
+  .task-item p {
+    height: 35px;
+    font-size: 12px;
+  }
+}

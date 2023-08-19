@@ -10,3 +10,12 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 500px) {
+  .header {
+    top: 164px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}

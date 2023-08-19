@@ -8,6 +8,10 @@
   justify-content: space-between;
 }
 
+.filter-options .item-counter {
+  width: 90px;
+}
+
 .filter-options .filter-buttons {
   display: grid;
   align-items: center;
@@ -34,4 +38,23 @@
 .filter-options .filter-buttons button.active {
   color: white;
   background-color: #34495e;
+}
+
+@media screen and (max-width: 500px) {
+  .filter-options {
+    font-size: 12px;
+    width: 220px;
+    margin: 10px auto 0 80px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    height: auto;
+  }
+  .filter-options .filter-buttons {
+    display: flex;
+  }
+  .filter-options .filter-buttons button {
+    font-size: 10px;
+    width: fit-content;
+  }
 }

@@ -13,3 +13,16 @@
   gap: 16px;
   grid-template-columns: 1fr 0.5fr;
 }
+
+@media screen and (max-width: 500px) {
+  .todo-app {
+    padding: 4px 16px;
+  }
+  .todo-grid {
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 16px;
+    grid-template-columns: 1fr 0.5fr;
+  }
+}
